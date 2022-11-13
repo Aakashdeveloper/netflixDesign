@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.back-img{
+    height: 750px;
+    border-bottom: 8px solid #222;
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7),rgba(10, 10, 10, 0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+}
+.dd{
+    border-radius: 0;
+}
+.dd:hover{
+    background-color: black;
+    color: white;
+}
+.sign-in-btn{
+    background-color: #e50914;
+}
+.wallpaper-content{
+    max-width: 904px;
+}
+.img-title{
+    max-width: 640px; 
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-top: 120px;
+}
+.img-subtitle{
+    font-size: 1.625rem;
+    margin: 1rem auto;
+}
+.email-txt{
+    font-size: 1.2rem;
+    border: none;
+}
+.email-field{
+    max-width: 700px;
+}
+.get-started-btn{
+    background-color: #e50914;
+    font-size: 1.6rem;
+    border: none;
+}
+/* Container Back */
+.container-back{
+    background-color: black;
+}
+.main-row{
+    border-bottom: 8px solid #222;
+}
+.main-col-text{
+    max-width: 520px;
+}
+.main-title{
+    font-weight: 600;
+}
+.faq-questions{
+    max-width: 900px;
+    border-bottom: 8px solid #222;
+}
+.faq{
+    background-color: #222;
+}
+.faq-1{
+    font-size: 30px;
+}
+.faq-btn{
+    font-size: 30px;
+    color: white;
+}
+.footer{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.footer:hover{
+    color: white;
+    opacity: 0.5;
+    text-decoration: underline;
+}
